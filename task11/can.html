@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+</head>
+<style type="text/css">
+p {
+    height: 50px;
+    line-height: 50px;
+}
+</style>
+
+<body>
+    <p></p>
+    <input type="text" name="">
+    <!--  <button>计算</button> -->
+    <script type="text/javascript">
+    var inpt = document.querySelector("input");
+
+    // document.querySelector("p").innerHTML=inpt;
+    inpt.onchange = function() {
+        var inp = inpt.value;
+        document.querySelector("p").innerHTML = inp / 2;
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+/*
+* @Author: Administrator
+* @Date:   2016-08-04 10:24:06
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-08-04 10:32:10
+*/
+
+.aqi-chart-wrap {
+    margin: 0 auto;
+    width: 950;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.aqi-chart-wrap div {
+    float: left;
+    flex: 1;
+}

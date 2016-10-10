@@ -1,0 +1,47 @@
+/*
+* @Author: Administrator
+* @Date:   2016-06-02 17:22:35
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-06-03 10:49:03
+*/
+
+#aqi-chart-wrap {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#aqi-chart-wrap div {
+    float: left;
+    flex: 1;
+}
+
+#aqi-chart-wrap div {
+    background-color: skyblue;
+}
+
+#aqi-chart-wrap div:nth-child(7n-5) {
+    background-color: #04f;
+}
+
+#aqi-chart-wrap div:nth-child(7n-4) {
+    background-color: #f50;
+}
+
+#aqi-chart-wrap div:nth-child(7n-3) {
+    background-color: #0ff;
+}
+
+#aqi-chart-wrap div:nth-child(7n-2) {
+    background-color: green;
+}
+
+#aqi-chart-wrap div:nth-child(7n-1) {
+    background-color: purple;
+}
+
+#aqi-chart-wrap div:nth-child(8n-1) {
+    background-color: pink;
+}

@@ -1,0 +1,75 @@
+/*
+* @Author: Administrator
+* @Date:   2016-08-04 10:24:06
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-08-04 17:31:53
+*/
+
+.aqi-chart-wrap {
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+
+.aqi-chart-wrap div {
+    float: left;
+    flex: 1;
+    background: skyblue;
+    position: relative;
+}
+
+.aqi-chart-wrap div span {
+    position: absolute;
+    top: -18px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.mark1 {
+    position: absolute;
+    left: -8px;
+    top: -13px;
+    border: 8px solid #000;
+    border-color: transparent transparent #000 transparent;
+}
+
+.mark3 {
+    position: absolute;
+    left: -41px;
+    top: 135px;
+    width: 13px;
+}
+
+.mark2 {
+    position: absolute;
+    right: -53px;
+    bottom: -8px;
+    border: 8px solid #000;
+    border-color: transparent transparent transparent #000;
+}
+
+.mark4 {
+    position: absolute;
+    right: -15px;
+    bottom: -26px;
+}

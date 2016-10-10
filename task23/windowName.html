@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script type="text/javascript">
+    if (!window.name) {
+        alert("第一次打开")
+            /*   console.log(window.name); 第一次打开window.name 是一个空的字符串，
+               var a = window.name
+               console.log(Boolean(window.name)) //false*/
+        window.name = "haha"
+    } else {
+        console.log(window.name) //第二次为测试值，然后在关闭浏览器窗口时销毁
+        alert("此为刷新操作")
+    }
+    </script>
+</body>
+
+</html>
